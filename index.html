@@ -1,0 +1,163 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Адаптивный макет</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <style>
+   [class*="col-"] {
+    background-color: #eee;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-size: 2rem;
+   }
+  </style>
+ </head>
+ <body>
+<div class="container">
+ <div class="row">
+  <div class="col-xs-12 hidden-xs">Заголовок</div>
+  <div class="col-xs-12 col-sm-8 col-md-8">Колонка 1</div>
+  <div class="col-xs-12 col-sm-4 col-md-3 col-md-offset-1">Колонка 2</div>
+  <div class="col-xs-12 visible-xs-block">Заголовок</div>
+ </div>
+ 
+<a href="#"><img src="http://gidrostore.ru/boot/images/banner-quest.png"></a>
+<div class="panel panel-default">  <div class="panel-heading">    <h3 class="panel-title">Оформление Bootstrap </h3>
+  </div>
+ <ul class="nav nav-pills nav-justified" role="tablist">
+  <li role="presentation" class="active"><a href="#tab1" role="tab" data-toggle="tab" aria-expanded="true">Текст</a></li>
+  <li role="presentation" class=""><a href="#tab2" role="tab" data-toggle="tab" aria-expanded="true">Картинки</a></li>
+  <li role="presentation" class=""><a href="#tab3" role="tab" data-toggle="tab" aria-expanded="true">Иконки</a></li>
+</ul>
+<div class="tab-content"> <div role="tabpanel" class="tab-pane fade active in" id="tab1">  <p class="text-muted">Серый цвет</p>
+<p class="text-primary">Основной текст</p>
+<p class="text-success">Цвет для сообщения об успехе</p>
+<p class="text-info">Цвет для информации</p>
+<p class="text-warning">Цвет для предупреждений</p>
+<p class="text-danger">Цвет для сообщений об ошибках</p>
+<p class="bg-primary">Основной текст</p>
+<p class="bg-success">Цвет для сообщения об успехе</p>
+<p class="bg-info">Цвет для информации</p>
+<p class="bg-warning">Цвет для предупреждений</p>
+<p class="bg-danger">Цвет для сообщений об ошибках</p>
+<div class="well"><p>Доступна услуга проектирования теплиц и тепличных комплексов,      систем вентиляции, освещения и полива. Размещение заявок на проектирование и консультирование  направлять на email: opt@gidrostore.ru<br></p>врезка</div>
+ </div>
+ <div role="tabpanel" class="tab-pane" id="tab2"> 
+	<img src="http://gidrostore.ru/boot/images/banner-quest.png" alt="..." class="img-rounded">
+	<img src="http://gidrostore.ru/boot/images/banner-quest.png" alt="..." class="img-circle">
+<img src="http://gidrostore.ru/boot/images/banner-quest.png" alt="..." class="img-thumbnail">
+ </div>
+ <div role="tabpanel" class="tab-pane" id="tab3">  
+  <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+  <span class="glyphicon glyphicon-asterisk" aria-hidden="true"></span>
+  <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+  <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+  <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+  <span class="glyphicon glyphicon-th-large" aria-hidden="true"></span>
+  <span class="glyphicon glyphicon-th" aria-hidden="true"></span>
+  <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+  <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+  <span class="glyphicon glyphicon-time" aria-hidden="true"></span>
+  <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
+  <span class="glyphicon glyphicon-tag" aria-hidden="true"></span>
+  <span class="glyphicon glyphicon-book" aria-hidden="true"></span>
+  <span class="glyphicon glyphicon-tint" aria-hidden="true"></span>
+  <span class="glyphicon glyphicon-gift" aria-hidden="true"></span>
+  <span class="glyphicon glyphicon-baby-formula" aria-hidden="true"></span>
+  <span class="glyphicon glyphicon-copyright-mark" aria-hidden="true"></span>
+  <span class="glyphicon glyphicon-lamp" aria-hidden="true"></span>
+  <span class="glyphicon glyphicon-hourglass" aria-hidden="true"></span>
+  <span class="glyphicon glyphicon-ruble" aria-hidden="true"></span>
+  <span class="glyphicon glyphicon-grain" aria-hidden="true"></span>
+  <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
+  <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+  <span class="glyphicon glyphicon-fire" aria-hidden="true"></span>
+  <span class="glyphicon glyphicon-leaf" aria-hidden="true"></span>
+  <span class="glyphicon glyphicon-comment" aria-hidden="true"></span>
+  <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+  <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
+  <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span> 
+  </div>
+
+             </div>
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">  <div class="panel panel-default">    <div class="panel-heading" role="tab" id="headingOne">      <h4 class="panel-title">        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">          Collapsible Group Item #1        </a>      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">      <div class="panel-body">        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">    <div class="panel-heading" role="tab" id="headingTwo">      <h4 class="panel-title">        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">          Collapsible Group Item #2        </a>      </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">      <div class="panel-body">        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">    <div class="panel-heading" role="tab" id="headingThree">      <h4 class="panel-title">        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">          Collapsible Group Item #3        </a>      </h4>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">      <div class="panel-body">        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.      </div>
+    </div>
+  </div>
+</div>
+<!-- Single button -->
+<div class="btn-group">
+  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Action <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu">
+    <li><a href="#">Action</a></li>
+    <li><a href="#">Another action</a></li>
+    <li><a href="#">Something else here</a></li>
+    <li role="separator" class="divider"></li>
+    <li><a href="#">Separated link</a></li>
+  </ul>
+</div>
+<h1>Борщ</h1>
+<div class="pull-right bg-info" style="width: 20em; padding: 10px;">
+  <h2><small>Хозяйке на заметку</small></h2>
+  <p>Борщ получится вкуснее, если добавить в него немного соли.</p>
+</div>
+<p>Мясо отварить до готовности. Промыть свеклу, очистить, 
+  нарезать соломкой и тушить с помидорами до полуготовности.</p>
+  <p>Бульон процедить, мясо нарезать кусочками. В бульон добавить 
+  нарезанный дольками картофель, довести до кипения, опустить нарезанную 
+  соломкой свежую капусту и варить 10-15 минут, добавить пассерованные 
+  овощи, болгарский перец, нашинкованный тонкой соломкой, 
+  специи и довести до готовности.</p>
+<p>Готовому борщу дать настояться в течение 20-25 минут. 
+  При подаче к столу добавить сметану, мясо, зелень.</p>
+  <h1>Заголовок первого уровня</h1>
+  <h1><small>Заголовок первого уровня</small></h1>
+  <p class="lead">Дорогой друг! Я расскажу тебе удивительную историю
+ про маленького червячка, который жил в яблоке,
+ о его путешествии в волшебную страну Нортландия, о том,
+ какие опасности подстерегали его на пути, кого он повстречал
+ по дороге, какие приключения и испытания прошёл,
+ и что он рассказал по возвращению домой.</p>
+<p>Итак, сказка про маленького червячка, который жил в яблоке,
+ о его путешествии в волшебную страну Нортландия, о том,
+ какие опасности подстерегали его на пути, кого он повстречал
+ по дороге, какие приключения и испытания прошёл,
+ и что он рассказал по возвращению домой.</p>
+ <p><abbr title="Cascading Style Sheets, Каскадные таблицы стилей">CSS</abbr> —
+  набор параметров форматирования, который применяется к элементам
+  документа, чтобы изменить их внешний вид. </p>
+  <p>Функция <code>checkParent()</code> вызывается 
+  с параметрами <var>src</var> и <var>dest</var>.</p>
+<pre>function checkParent (src, dest) {
+  while (src != null) {
+    if (src.tagName == dest) 
+      src = src.parentElement
+    }
+  return null
+}</pre>
+</div>
+<div class="go_top" style="text-align: center; ">&nbsp;<a href=""><span class="glyphicon glyphicon-chevron-up" style="color: #61bd00;font-size: 16px;" aria-hidden="true"></span>ВВЕРХ<span class="glyphicon glyphicon-chevron-up" style="color: #61bd00;font-size: 16px;" aria-hidden="true"></span></a>&nbsp;</div>
+
+            
+    </div>
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.js"></script>
+ </body>
+</html>
